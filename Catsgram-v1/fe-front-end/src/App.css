@@ -1,0 +1,356 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+header{
+  height: 140px;
+  /* background-color: #E6E6E6; */
+  text-align: center;
+}
+header img{
+  width: 180px;
+  display: inline-block;
+}
+header div {
+  display: inline-block;
+  vertical-align: top;
+}
+header h1{
+  
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #ffffff;
+  font-size: 45px;
+  text-shadow: 4px 0 #833AB4, 0 3px #FCAF45, 6px 0 #FD1D1D, 0 6px #E1306C;
+  /* text-shadow: 4px 0 #833AB4, 0 3px #FCAF45,  0 6px #E1306C; */
+  text-align: center;
+  
+}
+
+nav{
+  height:80px;
+  width: 1600px;
+  margin: auto;
+  margin-top: 10px;
+ 
+  text-align: center;
+
+}
+
+nav div{
+  width: 150px;
+  margin: 0px 20px;
+  display: inline-block;
+  border: 3px solid #E1306C;
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+nav div a{
+  text-decoration: none;
+  color: #833AB4;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav div:hover { 
+    border: 3px solid #FCAF45;
+} 
+
+/* nav div a:hover{
+  color: #E1306C;
+} */
+.catsGrid{
+  width: 1400px;
+  margin: auto;
+  /* background: aqua; */
+}
+
+.bloque1{
+  width: 35%;
+  display: inline-block;
+  margin-bottom: 30px;
+  text-align: center;
+}
+ .bloque2{
+   vertical-align: top;
+   padding-top: 30px;
+   width: 65%;
+   display: inline-block;
+   margin-bottom: 100px;
+ }
+ .renderCat{
+   border-top: 5px solid #833AB4;
+   padding-top: 5px;
+ }
+.renderCat img{
+  width: 400px;
+}
+
+.rankingGrid .renderCat p{
+  color: #833AB4;
+  font-weight: bold;
+  background: #FCAF45;
+  padding: 10px 10px;
+  /* width: 380px; */
+  text-align: center;
+  
+}
+
+.renderCat .bloque1 button{
+  background:#E1306C ;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 30px;
+  border: 2px solid #833AB4;
+ 
+}
+.newCat{
+   padding: 30px 30px 30px 0px;
+  
+}
+
+
+.addCat label{
+  color: #833AB4;
+  font-weight: bold;
+  font-size: 20px;
+}
+.addCat textarea{
+  border: 1px solid #FCAF45;
+  border-radius: 10px;
+}
+.addCat input{
+  background: #833AB4;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-weight: bold;
+  border: 1px solid #E1306C;
+  border-radius: 30px;
+}
+
+.rankingGrid .commentList p{
+  background: #FCAF45;
+  /* border-top: 1px solid #FCAF45; */
+  display: inline-block;
+  width: 700px;
+  /* border-radius: 10px; */
+  font-size: 15px;
+
+}
+
+.commentList button{
+  background: #833AB4;
+  color: #ffffff;
+  border: 1px solid #E1306C;
+}
+.ranking {
+  width: 1600px;
+  margin: auto;
+  text-align: center;
+}
+.ranking h1{
+  color: #833AB4;
+
+
+}
+
+.catRanking{
+  padding: 20px;
+  background: #FCAF45;
+  margin: 50px 0px;
+}
+
+.rankingGrid p{
+  color: #833AB4;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.rankingGrid div:first-child .catRanking p{
+  color: #E1306C;
+  background: #ffffff;
+}
+
+.rankingGrid div:first-child .catRanking p span:after{
+  content: " is the WINNER!!!! " ;
+  color: #833AB4;
+}
+
+.newCatForm{
+  width: 1400px;
+  margin: auto;
+  background: #FCAF45;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+.newCatForm form{
+  padding: 100px;
+}
+
+.newCatForm form label{
+  color: #833AB4;
+  font-weight: bold;
+  font-size: 25px;
+}
+.newCatForm form input{
+  margin-bottom: 20px;
+  width: 300px;
+  font-size: 25px;
+
+}
+.newCatForm form input[type=submit]{
+  background: #833AB4;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+footer{
+  background-color: #E6E6E6;
+  height: 200px;
+  text-align: center;
+}
+footer div{
+  padding-top: 30px;
+}
+footer p{
+  color: #833AB4;
+  font-weight: bold;
+  font-size: 25px;
+}
+footer span{
+  font-size: 11px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.secondNav{
+  width:800px;
+  margin: auto;
+ /* border: 1px solid black; */
+ margin-bottom: 10px;
+ display: flex;
+}
+
+.search{
+
+  text-align: center;
+  padding:20px 50px;
+  color: #833AB4;
+  font-weight: bold;
+  font-size: 25px;
+  flex-grow: 0 ;
+ 
+}
+
+.search input{
+  border: solid 3px #833AB4;
+  color: #FCAF45;
+  font-weight: bold;
+  font-size: 25px;
+  display: inline-block;
+
+  
+}
+
+.orderButton{
+  margin-left: 10px;
+  border: none;
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #833AB4;
+  font-weight: bold;
+  font-size: 25px;
+  display: inline-block;
+  flex-grow: 0 ;
+  border-radius: 30px;
+  border: 1px solid #E1306C;
+  
+}
+
+
+.updateKitty form{
+  padding-top: 20px;
+  width: 800px;
+  margin: auto;
+  background-color: #FCAF45;
+  padding-left: 10%;
+  display: flex;
+
+}
+
+.updateKitty form img{
+  width: 150px;
+  margin-right: 5px;;
+  
+}
+
+.updateKitty form input{
+  border: 1px solid #E1306C;
+  padding: 10px 20px;
+  
+  font-weight: bold;
+  
+  
+  
+}
+.updateKitty form button{
+  border: 1px solid #E1306C;
+  border-radius: 30px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #833AB4;
+  color: #fff;
+  font-weight: bold;
+}
+
+.updateKitty form p{
+  font-size: 25px;
+  color: #833AB4;
+}
